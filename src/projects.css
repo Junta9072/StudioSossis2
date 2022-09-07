@@ -1,0 +1,20 @@
+:root {
+  --body__p: white;
+  --background__darkbrown: #110e0a;
+  --background__lightbrown: #201e1a;
+
+  --p__size: 14pt;
+  --h2__size: 16pt;
+}
+
+.project__container {
+  border-radius: 1vw;
+  background-size: cover;
+}
+
+.project__title {
+  margin-top: 3%;
+  margin-left: 3%;
+  font-weight: 900;
+  font-size: 28pt;
+}

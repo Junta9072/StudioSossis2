@@ -1,8 +1,4 @@
-<li>
-    <article>
-        <img src="{{ post.data.image }}" alt="{{ post.data.alt }}" class="snippet__image">
-        <h3 class="snippet__title">{{ post.data.title }}</h3>
-        <p class="snippet__meta">by <span>{{ post.data.author }} on {{ post.date | postDate }}</span></p>
-        <a href="{{ post.url }}" class="btn btn--primary">Continue reading</a>
-    </article>
-</li>
+<div class="project__container" style="background-image: url({{ post.data.image }}); grid-area: {{ post.data.grid }}">
+    <h1 class="project__title">{{ post.data.title }}</h1>
+</div>
+
