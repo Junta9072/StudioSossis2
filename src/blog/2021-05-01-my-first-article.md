@@ -1,5 +1,6 @@
 ---
 title: Studio Sossis
+status: New & improved!
 author: Yarne Brangers
 date: 2022-09-07
 tags: ["post", "featured", "projects"]

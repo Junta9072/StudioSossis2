@@ -5,16 +5,23 @@ layout: 'base.njk'
       
 <section class="showCase">
   <h1 class="studioSossis__Logo"></h1>
-  <p class="studioSossis__Desc">
-    Welkom op de website waar je al mijn projecten eens kan bekijken, zowel afgewerkt als ongoing.
-  </p>
-  <div class="tags">
-    <h2 class="tags__title">Tags</h2>
-    <ul class="tags__buttons">
-      <span class="tag__icon">🐁 11ty</span>
-      <span class="tag__icon">📑 NetlifyCMS</span>
-      <span class="tag__icon">🖼️ three.js</span>
-    </ul>
+  <div class="Introtekst">
+    <p class="studioSossis__Desc">
+    Welkom op de website waar je al mijn projecten eens kan bekijken, zowel <span class="tag__icon">🎉 afgewerkt&ensp;</span> als <span class="tag__icon">⏳ ongoing&ensp;</span>.
+    </p>
+    <div class="tags">
+      <h2 class="tags__title">Tags</h2>
+      <ul class="tags__buttons">
+        <span class="tag__icon">🐁 11ty&ensp;</span>
+        <span class="tag__icon">📑 NetlifyCMS&ensp;</span>
+        <span class="tag__icon">🖼️ three.js&ensp;</span>
+        <span class="tag__icon">🎾 sensor API&ensp;</span>
+        <span class="tag__icon">⚡ socket.io&ensp;</span>
+        <span class="tag__icon">🚄 express.js&ensp;</span>
+        <span class="tag__icon">🧬 React&ensp;</span>
+        <span class="tag__icon">📊 Data vis.&ensp;</span>
+      </ul>
+  </div>
   </div>
     {%- for post in collections.projects -%}
     {% include 'article-snippet.njk' %}

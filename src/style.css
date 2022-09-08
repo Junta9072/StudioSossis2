@@ -8,7 +8,7 @@
 }
 
 html {
-  height: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   color: var(--body__p);
   background-color: #110e0a;
   padding-bottom: 25vh;
-  overflow-y: hidden;
+  overflow-y: scroll;
   background: repeating-linear-gradient(
       0deg,
       var(--background__lightbrown),
@@ -35,26 +35,37 @@ body {
 
 .showCase {
   display: grid;
-  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw;
-  grid-auto-rows: 10vw;
+  grid-template-columns: 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw;
+  grid-auto-rows: 7.5vw;
   gap: 1vw;
   margin-top: 5vh;
-  margin-left: 17.5vw;
-  margin-right: 17.5vw;
+  margin-left: 16.25vw;
+  margin-right: 16.25vw;
 }
 
 .studioSossis__Logo {
   height: 100%;
-  background: url("/assets/studioSossisLogo.svg");
+  background: url("/assets/StudioSossis/studioSossisLogo.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   transition: 0.5s;
   grid-area: 1 / 1 / 2 / span 2;
+  transition: 0.4s;
+}
+
+.studioSossis__Logo:hover {
+  background: url("/assets/StudioSossis/logo--hover.svg");
+  transition: 0.4s;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.Introtekst {
+  grid-area: 2 / 1 / span 3 / span 2;
 }
 
 .studioSossis__Desc {
   margin: 0vw;
-  grid-area: 2 / 1 / 3 / span 2;
   color: var(--body__p);
   font-weight: 200;
   font-size: 14pt;
@@ -62,23 +73,27 @@ body {
   font-style: italic;
 }
 
-.tags {
-  grid-area: 3 / 1 / 4 / span 2;
-}
-
 .tags__title {
+  margin-top: 2vh;
   font-weight: 700;
   font-size: var(--h2__size);
 }
 
 .tags__buttons {
-  margin-top: 2vh;
+  margin-top: 1vh;
+}
+
+.tags__buttons span {
+  line-height: 24pt;
 }
 
 .tag__icon {
-  padding: 2% 3% 2% 3%;
+  font-size: 11pt;
+  font-weight: 300;
+  font-style: normal;
+  padding: 1% 1% 1% 1%;
   background-color: var(--background__lightbrown);
+  border: #332d2a 1pt solid;
   border-radius: 3vh;
-  line-height: 28pt;
   white-space: nowrap;
 }
