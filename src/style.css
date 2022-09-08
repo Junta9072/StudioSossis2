@@ -31,16 +31,16 @@ body {
       var(--background__darkbrown) 0.2vh,
       var(--background__darkbrown) 10vh
     );
+  display: flex;
+  justify-content: center;
 }
 
 .showCase {
   display: grid;
-  grid-template-columns: 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw;
+  grid-template-columns: 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw;
   grid-auto-rows: 7.5vw;
   gap: 1vw;
   margin-top: 5vh;
-  margin-left: 16.25vw;
-  margin-right: 16.25vw;
 }
 
 .studioSossis__Logo {
@@ -61,7 +61,7 @@ body {
 }
 
 .Introtekst {
-  grid-area: 2 / 1 / span 3 / span 2;
+  grid-area: 2 / 1 / span 4 / span 2;
 }
 
 .studioSossis__Desc {
