@@ -10,6 +10,7 @@
 .project__container {
   border-radius: 0.5vw;
   background-size: cover;
+  transition: 0.5s;
 }
 
 .project__title {
@@ -23,5 +24,11 @@
   margin-left: 3%;
   font-weight: 300;
   font-size: 14pt;
+  color: white;
+}
+
+.project__container:hover {
+  transform: scale(1.05);
+  trasnition: 0.5s;
   color: black;
 }
