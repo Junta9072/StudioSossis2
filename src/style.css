@@ -253,7 +253,7 @@ body {
   }
 }
 
-@media (max-width: 390px) {
+@media (orientation: portrait) {
   .showCase {
     width: auto;
     grid-template-columns: 25vw 25vw 25vw;
