@@ -1,6 +1,6 @@
 ---
 title: Business card
-status:
+status: my very first decent website
 author: Yarne Brangers
 date: 2021-11-23
 tags: ["post", "featured", "projects"]

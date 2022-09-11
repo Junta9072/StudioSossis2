@@ -8,7 +8,7 @@
 }
 
 .project__container {
-  border-radius: 0.5vw;
+  border-radius: 1vh;
   background-size: cover;
   transition: 0.5s;
 }

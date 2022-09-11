@@ -37,9 +37,10 @@ body {
 
 .showCase {
   display: grid;
-  grid-template-columns: 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw 7.5vw;
-  grid-auto-rows: 7.5vw;
-  gap: 1vw;
+  width: 127vh;
+  grid-template-columns: 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
+  grid-auto-rows: 15vh;
+  gap: 2vh;
   margin-top: 5vh;
 }
 
@@ -96,4 +97,157 @@ body {
   border: #332d2a 1pt solid;
   border-radius: 3vh;
   white-space: nowrap;
+}
+
+.Business {
+  grid-area: 3 / 5 / span 1 / span 1;
+  background-image: url("/assets/archive/hanafudaoneXone.svg");
+}
+
+.Business h1,
+.Business p {
+  display: none;
+}
+
+.Magpie {
+  grid-area: 1 / 8 / span 1 / span 1;
+  background-image: url("/assets/archive/magpieoneXone.svg");
+}
+
+.Magpie h1,
+.Magpie p {
+  display: none;
+}
+
+.Comute {
+  grid-area: auto / auto / span 1 / span 2;
+  background-image: url("/assets/archive/comutetwoXone.svg");
+}
+
+.Periodic {
+  grid-area: 3 / 3 / span 1 / span 2;
+  background-image: url("/assets/archive/PTSCtwoXone.svg");
+}
+
+.Sossis {
+  grid-area: 1 / 3 / span 2 / span 3;
+  background-image: url("/assets/studioSossis/StudioSossisthreeXtwo.svg");
+}
+
+.tennis {
+  grid-area: auto / auto / span 2 / span 3;
+  background-image: url("/assets/10nis/10nisthreeXtwo.svg");
+}
+
+@media (max-width: 1050px) {
+  .showCase {
+    width: 112.5vh;
+    grid-template-columns: 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
+  }
+
+  .Magpie {
+    grid-area: 3 / 6 / span 1 / span 1;
+  }
+
+  .Magpie h1,
+  .Busines p {
+    display: none;
+  }
+
+  .Business {
+    grid-area: 3 / 7 / span 1 / span 1;
+  }
+
+  .Periodic {
+    grid-area: 2 / 6 / span 1 / span 2;
+  }
+
+  .tennis {
+    grid-area: 3 / 3 / span 2 / span 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .showCase {
+    width: auto;
+    grid-template-columns: 15vh 15vh 15vh 15vh 15vh;
+  }
+
+  .Magpie {
+    grid-area: 5 / 3 / span 1 / span 1;
+  }
+  .Magpie h1,
+  .Busines p {
+    display: none;
+  }
+
+  .Comute {
+    grid-area: 6 / 3 / span 1 / span 2;
+  }
+
+  .Business {
+    grid-area: 6 / 5 / span 1 / span 1;
+  }
+
+  .Business h1,
+  .Busines p {
+    display: none;
+  }
+
+  .Periodic {
+    grid-area: 5 / 4 / span 1 / span 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .showCase {
+    width: auto;
+    grid-template-columns: 15vh 15vh 15vh;
+  }
+
+  .studioSossis__Logo {
+    grid-area: 1 / 1 / span 2 / span 3;
+  }
+
+  .Introtekst {
+    grid-area: 3 / 1 / span 2 / span 3;
+  }
+
+  .Sossis {
+    grid-area: 5 / 1 / span 2 / span 3;
+  }
+
+  .tennis {
+    grid-area: 7 / 1 / span 2 / span 3;
+  }
+
+  .Periodic {
+    background-image: url("/assets/archive/PTSCthreeXtwo.svg");
+    grid-area: 9 / 1 / span 2 / span 3;
+  }
+
+  .Magpie {
+    background-image: url("/assets/archive/magpiethreeXtwo.svg");
+    grid-area: 11 / 1 / span 2 / span 3;
+  }
+
+  .Magpie h1,
+  .Magpie p {
+    display: block;
+  }
+
+  .Comute {
+    background-image: url("/assets/archive/comutethreeXtwo.svg");
+    grid-area: 13 / 1 / span 2 / span 3;
+  }
+
+  .Business {
+    background-image: url("/assets/archive/hanafudathreeXtwo.svg");
+    grid-area: 15 / 1 / span 2 / span 3;
+  }
+
+  .Business h1,
+  .Business p {
+    display: block;
+  }
 }

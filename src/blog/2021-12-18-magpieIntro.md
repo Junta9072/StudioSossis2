@@ -1,5 +1,6 @@
 ---
 title: Magpie
+status: a group made location game
 author: Yarne Brangers
 date: 2022-12-18
 tags: ["post", "featured", "projects"]
