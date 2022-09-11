@@ -199,7 +199,7 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (orientation: portrait) {
   .showCase {
     width: auto;
     grid-template-columns: 25vw 25vw 25vw;
@@ -253,7 +253,7 @@ body {
   }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 390px) {
   .showCase {
     width: auto;
     grid-template-columns: 25vw 25vw 25vw;
