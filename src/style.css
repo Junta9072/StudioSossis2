@@ -202,7 +202,8 @@ body {
 @media (max-width: 650px) {
   .showCase {
     width: auto;
-    grid-template-columns: 15vh 15vh 15vh;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-auto-rows: 25vw;
   }
 
   .studioSossis__Logo {
@@ -244,6 +245,60 @@ body {
   .Business {
     background-image: url("/assets/archive/hanafudathreeXtwo.svg");
     grid-area: 15 / 1 / span 2 / span 3;
+  }
+
+  .Business h1,
+  .Business p {
+    display: block;
+  }
+}
+
+@media (max-width: 390px) {
+  .showCase {
+    width: auto;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-auto-rows: 25vw;
+  }
+
+  .studioSossis__Logo {
+    grid-area: 1 / 1 / span 2 / span 3;
+  }
+
+  .Introtekst {
+    grid-area: 3 / 1 / span 3 / span 3;
+  }
+
+  .Sossis {
+    grid-area: 6 / 1 / span 2 / span 3;
+  }
+
+  .tennis {
+    grid-area: 8 / 1 / span 2 / span 3;
+  }
+
+  .Periodic {
+    background-image: url("/assets/archive/PTSCthreeXtwo.svg");
+    grid-area: 10 / 1 / span 2 / span 3;
+  }
+
+  .Magpie {
+    background-image: url("/assets/archive/magpiethreeXtwo.svg");
+    grid-area: 12 / 1 / span 2 / span 3;
+  }
+
+  .Magpie h1,
+  .Magpie p {
+    display: block;
+  }
+
+  .Comute {
+    background-image: url("/assets/archive/comutethreeXtwo.svg");
+    grid-area: 14 / 1 / span 2 / span 3;
+  }
+
+  .Business {
+    background-image: url("/assets/archive/hanafudathreeXtwo.svg");
+    grid-area: 16 / 1 / span 2 / span 3;
   }
 
   .Business h1,
