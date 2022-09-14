@@ -7,16 +7,11 @@
   --h2__size: 16pt;
 }
 
-html {
-  height: 100vh;
-}
-
 body {
   font-family: "Poppins";
   color: var(--body__p);
   background-color: #110e0a;
-  padding-bottom: 25vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: repeating-linear-gradient(
       0deg,
       var(--background__lightbrown),
@@ -134,7 +129,7 @@ body {
   background-image: url("/assets/studioSossis/StudioSossisthreeXtwo.svg");
 }
 
-.tennis {
+.project__container.tennis {
   grid-area: auto / auto / span 2 / span 3;
   background-image: url("/assets/10nis/10nisthreeXtwo.svg");
 }
