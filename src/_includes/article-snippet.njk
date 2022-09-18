@@ -1,9 +1,10 @@
-<div class="{{ post.data.extra }} project__container {{ post.data.title }} ">
+<div class="{{ post.data.extra }} project__container {{ post.data.title }} " value="{{ post.data.myTags }}">
     <h1 class="project__title">{{ post.data.title }}</h1>
     <p class="project__status">{{ post.data.status }}</p>
 </div>
 
     <div class="article {{ post.data.extra }}">
+    <div class="article__close"></div>
     <div class="article__bg {{ post.data.fullBody }}">
         <div class='article__header'>
             <h2 class="article__title">{{ post.data.title }}</h2>

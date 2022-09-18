@@ -6,6 +6,7 @@ extra: magpie
 author: Yarne Brangers
 date: 2022-12-18
 tags: ["post", "featured", "projects"]
+myTags: "afgewerkt"
 image: /assets/archive/magpieoneXone.svg
 fullBody: magpieFB
 color: magpieGrid

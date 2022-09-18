@@ -6,6 +6,7 @@ grid: 3 / 3 / span 1 / span 2
 author: Yarne Brangers
 date: 2022-05-31
 tags: ["post", "featured", "projects"]
+myTags: "dataVIS afgewerkt"
 image: /assets/archive/PTSCtwoXone.svg
 fullBody: ptscFB
 color: ptscGrid

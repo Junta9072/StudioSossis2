@@ -6,6 +6,7 @@ author: Yarne Brangers
 date: 2021-11-23
 color: hanafudaGrid
 tags: ["post", "featured", "projects"]
+myTags: "afgewerkt"
 image: /assets/archive/hanafudaoneXone.svg
 fullBody: hanafudaFB
 grid: 3 / 5 / span 1 / span 1

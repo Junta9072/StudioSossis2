@@ -6,6 +6,7 @@ grid: auto / auto / span 1 / span 2
 status: A retro API website
 date: 2022-05-28
 tags: ["post", "featured", "projects"]
+myTags: "react afgewerkt"
 image: /assets/archive/comutetwoXone.svg
 fullBody: comuteFB
 color: comuteGrid

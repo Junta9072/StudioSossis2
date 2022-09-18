@@ -48,7 +48,7 @@
 }
 
 .clickCover {
-  position: absolute;
+  position: fixed;
   top: 0vw;
   left: 0vw;
   width: 100%;
@@ -56,10 +56,12 @@
   background-color: black;
   opacity: 0.6;
   display: none;
+  z-index: 1;
 }
 
 .article {
-  position: absolute;
+  z-index: 2;
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
   top: 5vh;
@@ -68,24 +70,42 @@
   width: 60vh;
   height: 90vh;
   display: none;
+  pointer-events: none;
+}
+
+.article__close {
+  margin-left: 50vh;
+  z-index: 3;
+  position: fixed;
+  width: 10vh;
+  height: 10vh;
+  background-image: url("/assets/StudioSossis/sossisClose.svg");
+  filter: invert(1);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 .article__bg {
-  position: absolute;
+  position: fixed;
   width: 50vh;
   height: 80vh;
   background-color: blue;
   border-radius: 1vh;
+  pointer-events: all;
 }
 
 .article__content {
-  position: absolute;
+  position: fixed;
   width: 50vh;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   margin-top: 10vh;
   margin-left: 10vh;
   background-color: aqua;
   border-radius: 1vh;
+  pointer-events: all;
 }
 
 .article__header {
@@ -301,4 +321,38 @@
 
 .tennisGrid a {
   text-decoration-color: #ffa300;
+}
+
+@media (orientation: portrait) {
+  .article {
+    z-index: 2;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    width: 90vw;
+    height: 90vw;
+    display: none;
+  }
+
+  .article__bg {
+    position: fixed;
+    width: 70vw;
+    height: 80vw;
+    background-color: blue;
+    border-radius: 1vh;
+  }
+
+  .article__content {
+    position: fixed;
+    width: 90vw;
+    min-height: 80vw;
+    height: auto;
+    margin-top: 15vw;
+    margin-left: 2.5vw;
+    background-color: aqua;
+    border-radius: 1vh;
+  }
 }

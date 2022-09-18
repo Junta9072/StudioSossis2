@@ -5,6 +5,7 @@ status: My most recent project
 author: Yarne Brangers
 date: 2022-09-08
 tags: ["post", "featured", "projects"]
+myTags: "threeJS sensorAPI socketIO expressJS ongoing"
 image: /assets/10nis/10nisthreeXtwo.svg
 fullBody: tennisFB
 color: tennisGrid

@@ -5,6 +5,7 @@ author: Yarne Brangers
 extra: studioSossis
 date: 2022-09-07
 tags: ["post", "featured", "projects"]
+myTags: "eleventy netlifyCMS ongoing"
 image: /assets/studioSossis/StudioSossisthreeXtwo.svg
 fullBody: studioSossisFB
 color: studioSossisGrid
