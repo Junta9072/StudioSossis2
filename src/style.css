@@ -160,6 +160,11 @@ body {
   background-image: url("/assets/10nis/10nisthreeXtwo.svg");
 }
 
+.project__container.contact {
+  grid-area: auto / auto / span 1 / span 2;
+  background-image: url("/assets/archive/contacttwoXtwo.svg");
+}
+
 @media (max-width: 1050px) {
   .showCase {
     width: 112.5vh;

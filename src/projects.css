@@ -255,6 +255,30 @@
     );
 }
 
+.contactFB {
+  background-image: url("/assets/archive/contactfullBody.svg");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.contactGrid {
+  background: repeating-linear-gradient(
+      0deg,
+      #514500,
+      #514500 0.2vh,
+      transparent 0.2vh,
+      transparent 10vh
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #514500,
+      #514500 0.2vh,
+      #0c0b04 0.2vh,
+      #0c0b04 10vh
+    );
+}
+
 .article__text {
   margin: 5%;
 }
