@@ -361,6 +361,10 @@
     display: none;
   }
 
+  .article__close {
+    margin-left: 70vw;
+  }
+
   .article__bg {
     position: fixed;
     width: 70vw;
