@@ -91,21 +91,21 @@
   position: fixed;
   width: 50vh;
   height: 80vh;
-  background-color: blue;
   border-radius: 1vh;
   pointer-events: all;
+  background-color: var(--background__darkbrown);
 }
 
 .article__content {
   position: fixed;
   width: 50vh;
-  min-height: 80vh;
-  height: auto;
+  height: 80vh;
   margin-top: 10vh;
   margin-left: 10vh;
-  background-color: aqua;
+  background-color: gray;
   border-radius: 1vh;
   pointer-events: all;
+  overflow-y: auto;
 }
 
 .article__header {
@@ -125,6 +125,7 @@
 }
 
 .studioSossisFB {
+  background-color: #f27300;
   background-image: url("/assets/archive/sossisfullBody.svg");
   background-size: cover;
   background-position: center left;
@@ -136,6 +137,7 @@
 }
 
 .hanafudaFB {
+  background-color: #ef233c;
   background-image: url("/assets/archive/businessfullBody.svg");
   background-size: cover;
   background-position: center left;
@@ -160,6 +162,7 @@
 }
 
 .comuteFB {
+  background-color: #1d1d1b;
   background-image: url("/assets/archive/comutefullBody.svg");
   background-size: cover;
   background-position: 30% 0%;
@@ -184,6 +187,7 @@
 }
 
 .ptscFB {
+  background-color: #3222ff;
   background-image: url("/assets/archive/PTSCfullBody.svg");
   background-size: cover;
   background-position: center left;
@@ -208,10 +212,36 @@
 }
 
 .tennisFB {
+  background-color: #568432;
   background-image: url("/assets/archive/10nisfullBody.png");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
+}
+
+.idlvFB {
+  background-color: #140724;
+  background-image: url("/assets/archive/IDLVfullBody.svg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.idlvGrid {
+  background: repeating-linear-gradient(
+      0deg,
+      #2b2d42,
+      #2b2d42 0.2vh,
+      transparent 0.2vh,
+      transparent 10vh
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #2b2d42,
+      #2b2d42 0.2vh,
+      #1f202e 0.2vh,
+      #1f202e 10vh
+    );
 }
 
 .tennisGrid {
@@ -232,6 +262,7 @@
 }
 
 .magpieFB {
+  background-color: #140724;
   background-image: url("/assets/archive/magpiefullBody.png");
   background-size: cover;
   background-position: center right;
@@ -281,6 +312,7 @@
 
 .article__text {
   margin: 5%;
+  line-height: 1.2;
 }
 
 .article__text h3 {
@@ -289,8 +321,22 @@
   margin-bottom: 1%;
 }
 
+.article__text img {
+  max-width: 100%;
+  margin: 16px 0px;
+  border-radius: 1vh;
+}
+
 .tennisGrid h3 {
   color: #ffa300;
+}
+
+.idlvGrid h3 {
+  color: #f13f55;
+}
+
+.idlvGrid h4 {
+  color: #f13f55;
 }
 
 .comuteGrid h3 {
@@ -331,6 +377,10 @@
   text-decoration-color: #ef233c;
 }
 
+.idlvGrid a {
+  text-decoration-color: #f13f55;
+}
+
 .ptscGrid a {
   text-decoration-color: #3222ff;
 }
@@ -368,19 +418,18 @@
   .article__bg {
     position: fixed;
     width: 70vw;
-    height: 80vw;
-    background-color: blue;
+    height: 80vh;
     border-radius: 1vh;
   }
 
   .article__content {
     position: fixed;
     width: 90vw;
-    min-height: 80vw;
-    height: auto;
-    margin-top: 15vw;
+    height: 80vh;
+    margin-top: 20vw;
     margin-left: 2.5vw;
-    background-color: aqua;
+    padding-bottom: 15vw;
     border-radius: 1vh;
+    overflow-y: auto;
   }
 }

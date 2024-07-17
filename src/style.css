@@ -156,8 +156,14 @@ body {
 }
 
 .project__container.tennis {
+  display: none;
   grid-area: auto / auto / span 2 / span 3;
   background-image: url("/assets/10nis/10nisthreeXtwo.svg");
+}
+
+.project__container.Redux {
+  grid-area: 2 / 6 / span 2 / span 3;
+  background-image: url("/assets/archive/IDLVthreeXtwo.svg");
 }
 
 .project__container.contact {
@@ -166,34 +172,6 @@ body {
 }
 
 @media (max-width: 1050px) {
-  .showCase {
-    width: 112.5vh;
-    grid-template-columns: 20vh 20vh 15vh 15vh 15vh 15vh 15vh;
-  }
-
-  .Magpie {
-    grid-area: 3 / 6 / span 1 / span 1;
-  }
-
-  .Magpie h1,
-  .Busines p {
-    display: none;
-  }
-
-  .Business {
-    grid-area: 3 / 7 / span 1 / span 1;
-  }
-
-  .Periodic {
-    grid-area: 2 / 6 / span 1 / span 2;
-  }
-
-  .tennis {
-    grid-area: 3 / 3 / span 2 / span 3;
-  }
-}
-
-@media (max-width: 900px) {
   .showCase {
     width: auto;
     grid-template-columns: 20vh 20vh 15vh 15vh 15vh;
@@ -209,6 +187,10 @@ body {
 
   .Comute {
     grid-area: 6 / 3 / span 1 / span 2;
+  }
+
+  .project__container.Redux {
+    grid-area: 3/3 / span 2 / span 3;
   }
 
   .Business {
@@ -259,7 +241,7 @@ body {
     top: 0.4vh;
   }
 
-  .project__container.Contact {
+  .project__container.Redux {
     grid-area: 5 / 1 / span 2 / span 3;
   }
 
@@ -267,7 +249,7 @@ body {
     grid-area: 7 / 1 / span 2 / span 3;
   }
 
-  .tennis {
+  .project__container.Contact {
     grid-area: 9 / 1 / span 2 / span 3;
   }
 
@@ -306,7 +288,7 @@ body {
   .showCase {
     width: auto;
     grid-template-columns: 25vw 25vw 25vw;
-    grid-auto-rows: 25vw;
+    /* grid-auto-rows: 25vw; */
   }
 
   .studioSossis__Logo {
@@ -320,11 +302,15 @@ body {
   }
 
   .Sossis {
-    grid-area: 6 / 1 / span 2 / span 3;
+    grid-area: 8 / 1 / span 2 / span 3;
   }
 
-  .tennis {
-    grid-area: 8 / 1 / span 2 / span 3;
+  .project__container.Contact {
+    grid-area: 10 / 1 / span 2 / span 3;
+  }
+
+  .project__container.Redux {
+    grid-area: 6 / 1 / span 2 / span 3;
   }
 
   .Periodic {

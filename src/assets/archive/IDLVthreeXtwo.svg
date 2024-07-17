@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 551.2">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #d90429;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #8d99ae;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        font-family: NotoSerif-Italic, 'Noto Serif';
+        font-size: 262.4px;
+        font-style: italic;
+        stroke: #c12036;
+        stroke-width: 1.8px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="420" y1="83.67" x2="420" y2="928.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5c6478"/>
+      <stop offset="1" stop-color="#8e99ad"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-3" width="840" height="554.18"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-7" width="840" height="554.18"/>
+  <g class="cls-4">
+    <polyline class="cls-2" points="103.38 -18.74 103.38 1243.43 199.8 1243.43 199.8 -18.74 296.22 -18.74 296.22 1243.43 392.64 1243.43 392.64 -18.74 489.06 -18.74 489.06 1243.43 585.48 1243.43 585.48 -18.74 681.9 -18.74 681.9 1243.43 778.32 1243.43 778.32 -18.74 874.74 -18.74 874.74 1243.43 971.16 1243.43 971.16 -18.74 1067.58 -18.74 1067.58 1243.43 1164 1243.43 1164 86.38 1260.42 86.38 1260.42 1243.43 1356.84 1243.43 1356.84 86.38 1501.47 86.38 1501.47 231.01 -41.25 231.01 -41.25 327.44 1501.47 327.44 1501.47 423.86 -41.25 423.86 -41.25 520.28 1501.47 520.28 1501.47 616.7 -41.25 616.7 -41.25 713.12 1501.47 713.12 1501.47 809.54 -41.25 809.54 -41.25 905.96 1501.47 905.96 1501.47 1002.38 -41.25 1002.38 -41.25 1098.8 1501.47 1098.8"/>
+    <rect class="cls-1" x="-41.25" y="-24.34" width="192.84" height="1157.04"/>
+    <text class="cls-5" transform="translate(184.78 582.79)"><tspan x="0" y="0">ID</tspan><tspan class="cls-6" x="286.62" y="0">L</tspan><tspan x="437.04" y="0">V</tspan></text>
+  </g>
+</svg>
