@@ -18,6 +18,23 @@ document.querySelectorAll(".project__container").forEach((item, i) => {
   });
 });
 
+//param detect
+let params = new URLSearchParams(document.location.search);
+if (params.get("project") != null) {
+  openProject(params.get("project"));
+}
+
+function openProject(url) {
+  let clickCover = document.querySelector(".clickCover");
+  clickCover.style.display = "block";
+  clickCover.addEventListener("click", () => {
+    clickCover.style.display = "none";
+    document.querySelector(".article." + url + "").style.display = "none";
+  });
+
+  document.querySelector(".article." + url + "").style.display = "block";
+}
+
 //filter tags js
 let tags = document.querySelectorAll(".tag__icon");
 let projects = [...document.querySelectorAll(".project__container")];
