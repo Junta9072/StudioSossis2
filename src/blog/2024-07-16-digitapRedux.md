@@ -87,6 +87,16 @@ Niet zonder blutsen en builen, en met een emergency database reset.<br>
 Maar zonder meer een success in mijn ogen.
 </p>
 <br>
+<h4>Achteraf</h4>
+<p>
+Moest je echt curieus zijn, is het een 17/20 geworden.<br>
+Los daarvan, was het eigenlijk niet heel professionaliserend, iets wat ik later nog zou merken als ik het toonde aan mensen die reeds webdev deden als job.<br>
+Voor mezelf was het al een grote oefening om alles te coördineren, en als er meer tijd was had een doordachte terugblik wel nog een heleboel te-custom-geschreven-code kunnen weghalen.<br><br>
+
+Los van de deadline, was tot hier komen ook niet gemakkelijk, en is de uitdaging van een volledige huisstijl,
+een consistente vormgeving en codeer gewoontes ontwikkellen ook geen kleine overwinning geweest voor me.<br><br>
+
+</p>
 
 Het project staat niet online helaas, maar als je zelf eens naar de code wil kijken...
 [Dan kan je hier naar de repo ➵](https://github.com/Junta9072/DigitapRedux)
