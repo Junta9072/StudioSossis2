@@ -1,7 +1,7 @@
 ---
 title: 10.nis
 extra: tennis
-status: My most recent project
+status: Pong with a swing
 author: Yarne Brangers
 date: 2022-09-08
 tags: ["post", "featured", "projects"]
